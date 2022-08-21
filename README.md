@@ -1,5 +1,8 @@
 # Checkers retro deluxe
 
+## How to download
+https://github.com/Thomas-X/Checkers/releases
+
 ## How to run
 ### Windows
 ```
