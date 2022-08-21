@@ -6,7 +6,6 @@ var height = 10;
 var colSize = 8;
 var game = new Game(width, height, colSize);
 var controller = new Controller(game);
-// TODO: check for width (and don't render if below that)
 
 while (true)
 {
