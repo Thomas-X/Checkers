@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Spectre.Console" Version="0.44.0" />
+      <PackageReference Include="Spectre.Console.ImageSharp" Version="0.44.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\README.md">
+        <Link>README.md</Link>
+      </Content>
+      <Content Include="Images\empty_dark_checker.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Images\empty_light_checker.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Images\filled_dark_checker_with_black.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Images\filled_dark_checker_with_white.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Images\filled_light_checker_with_black.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Images\filled_light_checker_with_white.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="empty_dark_checker.png" />
+      <None Remove="empty_light_checker.png" />
+      <None Remove="filled_dark_checker_with_black.png" />
+      <None Remove="filled_dark_checker_with_white.png" />
+      <None Remove="filled_light_checker_with_black.png" />
+      <None Remove="filled_light_checker_with_white.png" />
+    </ItemGroup>
+
+</Project>
