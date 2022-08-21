@@ -7,10 +7,12 @@ https://github.com/Thomas-X/Checkers/releases
 ### Windows
 ```
 download the correct release
+unzip it
 open up ./Checkers.exe
 ```
 ### Linux / macOS
 ```
 download the correct release
+unzip it
 $ ./Checkers
 ```
